@@ -27,7 +27,7 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -54,6 +54,6 @@ div#formulario > h1{
     margin-bottom: 10px;    
 }
 
-div#formulario > p{
+div#formulario > p {
     font-size: .8em;
 }
