@@ -8,7 +8,7 @@
 }
 
 body, html {
-    background-color: #dc143c;
+    background-color:rgb(3, 44, 3);
     height: 100vh;
     width: 100vw;
 }
@@ -38,7 +38,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: crimson url("../imagens/Flores.jpg") no-repeat;
+    background: rgb(3, 44, 3) url("../imagens/imagemflor.jpg") no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
@@ -56,17 +56,42 @@ div#formulario > h1{
 
 div#formulario > p {
     font-size: .8em;
+    margin: 10px 0px;
 }
 
 form > div.campo{
     background-color: lightgrey;
+    border: 2px solid  lightgrey;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: blueviolet;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input {
@@ -84,7 +109,9 @@ form > input {
 
 form > input[type=submit]:hover {
     background-color: blueviolet;
+   
 } 
+
 
 form >a.botao {
     display: block;
